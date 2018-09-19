@@ -47,4 +47,7 @@ _ReSharper*/
 
 # Non-desired folders
 [Vv]endor
+vendor/
+Vendor/
+vendor/googletest
 
