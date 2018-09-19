@@ -5,6 +5,9 @@
 *       Copying any portion of this source code is 
 *      prohibited without the consent of the owner.
 *
+*    This is the source file for substring searching
+*        in an input sentence given by the user.
+*
 **********************************************************/
 
 #include <iostream>

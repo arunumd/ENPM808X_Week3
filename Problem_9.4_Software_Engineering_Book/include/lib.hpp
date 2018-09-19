@@ -1,3 +1,14 @@
+/*********************************************************
+*
+*        Copyright 2018, Arun Kumar Devarajulu,
+*       University of Maryland, College Park, MD
+*       Copying any portion of this source code is 
+*      prohibited without the consent of the owner.
+*
+*    This is the header file for substring searching
+*        in an input sentence given by the user.
+*
+**********************************************************/
 #pragma once
 
 // Solution for Problem 9.4 on Software Engineering Book
@@ -23,9 +34,9 @@ class WordLens {
        std::getline(std::cin, sentence);
        }
 
-       void keywordInput() {
        /*This function gets the search keyword from the user and 
         *stores it in the variable "keyword"                     */
+       void keywordInput() {
        /*A simple prompt for keyword/ search-term input*/
        std::cout << "Please enter the search term below :" << std::endl;
        /*getline function enables grabbing the whole keyword (as 
