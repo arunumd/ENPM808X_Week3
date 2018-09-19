@@ -13,7 +13,7 @@ Simple starter C++ project with:
 ## Standard install via command-line
 ```
 git clone https://github.com/arunumd/ENPM808X_Week3.git
-cd <path to repository>
+cd Problem_9.4_Software_Engineering_Book
 mkdir build
 cd build
 cmake ..
