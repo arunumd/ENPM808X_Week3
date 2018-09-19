@@ -44,3 +44,7 @@ _ReSharper*/
 
 # Office Temp Files
 ~$*
+
+# Non-desired folders
+[Vv]endor
+
