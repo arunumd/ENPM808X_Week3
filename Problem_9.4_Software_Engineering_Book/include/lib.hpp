@@ -57,23 +57,23 @@ class WordLens {
        std::cout << "\nThe search-term \"" << keyword <<
        "\" was found in position " << position <<
        "of the sentence !" << std::endl;
-       return position; /*< Here position will be the location of the
-                            succesfully found search term*/
+       return position;     /*< Here position will be the location of the
+                                succesfully found search term*/
        }
        else {
        /*When the string is not found, we print an error message*/
        std::cout << "\nThe search-term \"" << keyword <<
        "\" was not found in the given sentence !" << std::endl;
-       return position; /*Here position will be end of string*/
+       return position;     /*< Here position will be end of string*/
        }
        }
 
     private:
-      std::string sentence;/*< "sentence" is the variable of string type which
+      std::string sentence; /*< "sentence" is the variable of string type which
                                 is used for storing the parent sentence input
                                 by the user*/
-      std::string keyword;/*< The variable keyword which is of string type is
-                              used for holding the keyword input by the user*/
-      std::size_t position;/*< This variable will hold the position of the
-                               search term in the sentence*/
+      std::string keyword;  /*< The variable keyword which is of string type is
+                                used for holding the keyword input by the user*/
+      std::size_t position; /*< This variable will hold the position of the
+                                search term in the sentence*/
 };
